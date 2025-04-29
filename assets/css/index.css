@@ -1,0 +1,22 @@
+body {
+    width: calc(100vw - 16px);
+    height: calc(100vh - 16px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 2rem;
+}
+
+.main a {
+    text-decoration: none;
+}
+
+.main a:hover {
+    text-decoration: underline;
+}

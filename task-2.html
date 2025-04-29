@@ -3,9 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/task-2.css">
     <title>Завдання 2</title>
 </head>
 <body>
-    
+    <table>
+        <thead>
+            <tr>
+                <td colspan="4">Логічний елемент І</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Логічні вирази</td>
+                <td colspan="2">Можливі відповіді</td>
+                <td rowspan="2">Для перевірки рішення зробіть клік</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>0</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0 ∧ 0 = </td>
+                <td>
+                    <input class="check-radio" type="radio" name="op_0_0" value="1">
+                </td>
+                <td>
+                    <input class="check-radio" type="radio" name="op_0_0" value="0">
+                </td>
+                <td>
+                    <button class="check-btn" type="button" data-correct="0">Перевірити</button>
+                </td>
+            </tr>
+            <tr>
+                <td>0 ∧ 1 = </td>
+                <td>
+                    <input class="check-radio" type="radio" name="op_0_1" value="1">
+                </td>
+                <td>
+                    <input class="check-radio" type="radio" name="op_0_1" value="0">
+                </td>
+                <td>
+                    <button class="check-btn" type="button" data-correct="0">Перевірити</button>
+                </td>
+            </tr>
+            <tr>
+                <td>1 ∧ 0 = </td>
+                <td>
+                    <input class="check-radio" type="radio" name="op_1_0" value="1">
+                </td>
+                <td>
+                    <input class="check-radio" type="radio" name="op_1_0" value="0">
+                </td>
+                <td>
+                    <button class="check-btn" type="button" data-correct="0">Перевірити</button>
+                </td>
+            </tr>
+            <tr>
+                <td>1 ∧ 1 = </td>
+                <td>
+                    <input class="check-radio" type="radio" name="op_1_1" value="1">
+                </td>
+                <td>
+                    <input class="check-radio" type="radio" name="op_1_1" value="0">
+                </td>
+                <td>
+                    <button class="check-btn" type="button" data-correct="1">Перевірити</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>    
+
+    <script type="text/javascript" src="assets/js/task-2.js"></script>
 </body>
 </html>

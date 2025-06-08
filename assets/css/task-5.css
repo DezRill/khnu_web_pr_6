@@ -1,0 +1,8 @@
+.item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.item .label {
+    width: 100px;
+}

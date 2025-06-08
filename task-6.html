@@ -3,9 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/task-6.css">
     <title>Завдання 6</title>
 </head>
 <body>
-    
+<h2>
+    Поштова форма
+</h2>
+
+<form method="POST" action="">
+    <table>
+        <tbody>
+        <tr>
+            <td width="100px">
+                Кому
+            </td>
+            <td width="300px">
+                <input id="email-field" type="email" name="email">
+            </td>
+        </tr>
+        <tr>
+            <td width="100px">
+                Тема
+            </td>
+            <td width="300px">
+                <input id="subject-field" type="text" name="subject">
+            </td>
+        </tr>
+        <tr>
+            <td width="100px">
+                Повідомлення
+            </td>
+            <td width="300px">
+                <textarea id="message-field" name="message" rows="10"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center" valign="middle">
+                <button id="send-email" type="button">Відправити</button>
+                <button type="reset">Очистити</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</form>
+
+<script type="text/javascript" src="assets/js/task-6.js"></script>
 </body>
 </html>

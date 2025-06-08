@@ -1,0 +1,8 @@
+#registration-form .item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#registration-form .item .label {
+    width: 100px;
+}

@@ -3,9 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/task-4.css">
     <title>Завдання 4</title>
 </head>
 <body>
-    
+<h3>Реєстрація нового користувача</h3>
+<form id="registration-form" action="task-4-1.html" method="GET">
+    <div class="item">
+        <div class="label">Логін</div>
+        <div class="field">
+            <input type="text" id="login-field" name="login">
+        </div>
+    </div>
+    <div class="item">
+        <div class="label">Пароль</div>
+        <div class="field">
+            <input type="password" id="password-field" name="password">
+        </div>
+    </div>
+    <div class="item">
+        <div class="label">Телефон</div>
+        <div class="field">
+            <input type="text" id="phone-field" name="phone">
+        </div>
+    </div>
+    <div class="item">
+        <div class="label">Місто</div>
+        <div class="field">
+            <input type="text" id="city-field" name="city">
+        </div>
+    </div>
+    <div class="buttons">
+        <button type="submit">
+            Передати
+        </button>
+        <button id="clear-fields" type="reset">
+            Очистити
+        </button>
+    </div>
+</form>
 </body>
 </html>
